@@ -1,0 +1,19 @@
+{
+  "name": "better-ethers-error",
+  "version": "0.1.0",
+  "description": "To import",
+  "main": "./BetterEthersError/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avantgard3labs/better-ethers-error.git"
+  },
+  "author": "AvantGarde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avantgard3labs/better-ethers-error/issues"
+  },
+  "homepage": "https://github.com/avantgard3labs/better-ethers-error#readme"
+}
