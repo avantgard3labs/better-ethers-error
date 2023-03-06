@@ -1,11 +1,11 @@
 To import 
 
 ```
-import BetterEthersJSError from 'BetterEthersJSError/BetterEthersJSError'
+import BetterEthersError from 'BetterEthersError'
 ```
 
 To use it
 
 ```
-BetterEthersJSError.setUp();
+BetterEthersError.setup();
 ```

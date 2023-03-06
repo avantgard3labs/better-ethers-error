@@ -1,4 +1,4 @@
-export default class BetterEtherJsError{ 
+export default class BetterEthersError{ 
 
 
     static  getLink(errorMsg) {
@@ -79,10 +79,10 @@ export default class BetterEtherJsError{
         console.error(output);
     }
 
-    static setUp(){
+    static setup(){
         if (typeof window !== 'undefined') {
             window.addEventListener('unhandledrejection', (event) => {
-                BetterEtherJsError.makeError(event.reason);
+                BetterEthersError.makeError(event.reason);
                 event.preventDefault();
             });
         } 
